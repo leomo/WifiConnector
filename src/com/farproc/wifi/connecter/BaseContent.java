@@ -40,7 +40,6 @@ import android.widget.TextView;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 
 public abstract class BaseContent implements Floating.Content, OnCheckedChangeListener {
-
 	protected final WifiManager mWifiManager;
 	protected final Floating mFloating;
 	protected final ScanResult mScanResult;
